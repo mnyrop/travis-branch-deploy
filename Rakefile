@@ -1,5 +1,6 @@
 include FileUtils
 require 'jekyll'
+require 'tmpdir'
 
 namespace :deploy do
   desc "push built site to target branch"
