@@ -1,0 +1,9 @@
+title: Travis Branch Deploy
+description: "Demo site for deploying compiled Jekyll _site to GitHub Branches"
+baseurl: ''
+url: ''
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude: [Gemfile*, node_modules, vendor*]
